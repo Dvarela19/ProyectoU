@@ -1,0 +1,54 @@
+nav{
+    background: linear-gradient( #bcbcbc,#4774ea ,#bcbc );
+    margin-bottom: 10px;  
+}
+
+.container-fluid .navbar-brand{
+height: 50%;
+}
+
+.navbar-nav{
+    margin-bottom: 2px;
+    margin-block-end: auto;
+}
+
+.nav-link {
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-item{
+    margin-right: 15px;
+}
+
+.anuncio {
+    display: none;
+    position: fixed;
+    top: 50px;
+    left: 25px;
+    right: 25px;
+    background: linear-gradient(#bcbcbc, red, #bcbc);
+    padding: 20px;
+    z-index: 9999;
+    color: white; 
+}
+
+.anuncio .cerrar {
+    color: white; 
+    float: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 55px;
+    font-weight: bold;
+    cursor: pointer;
+ 
+}
+
+.anuncio .cerrar:hover {
+    color: #000;
+}
+
+.anuncio.show {
+    display: block;
+}
+
+

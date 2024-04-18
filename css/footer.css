@@ -1,0 +1,55 @@
+#container-footer{
+    width: 100%;
+    background: linear-gradient( #bcbcbc,#4774ea ,#bcbc );
+    color: whitesmoke;
+    
+
+}
+
+.footer{
+    margin-top: 40px;
+    margin-bottom: 0;
+    padding-top: 30PX;
+    padding-bottom: 30px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+    position: static;
+}
+
+.container-span{
+    align-items: center;
+    display: flex;
+    column-count: 5;
+}
+
+.span-footer{
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 18px;
+}
+ul{
+    justify-content: end;
+    display: flex;
+    column-count: 4px;
+    list-style: none;
+}
+
+.link{
+    margin-right: 50px;
+}
+.text-muted-footer {
+    height: 50px;
+    width: 50px;
+}
+
+#face{
+ color: #3b5998;
+}
+
+#Whats{
+    color: #25D366;
+}
+#waze{
+    color:#05c8f7;
+}

@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="es-CR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UCEMOficial</title>
+  <link rel="icon" href="img/favicon.ico">
+  <!------------Links CSS------------>
+  <link rel="stylesheet" href="/css/index.css">
+  <link rel="stylesheet" href="/css/footer.css">
+  <link rel="stylesheet" href="/css/materias.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!------------LIBRERIAS------------>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://kit.fontawesome.com/fb0425b0f5.js" crossorigin="anonymous"></script>
+  <script scr="/hamburger-icon.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- Anuncio desplegable -->
+  <div id="anuncio" class="anuncio">
+    <span class="cerrar" onclick="cerrarAnuncio()">&times;</span>
+    <!-- Contenido del anuncio -->
+    <p>AVISOS PARA EL TERCER CUATRIMESTRE 2023</p>
+    <p>Período ordinario de matrícula del 26 de junio al 26 de agosto
+
+      Período extraordinario de matrícula del 28 de agosto al 22 de setiembre
+
+      Inicio de lecciones del Tercer Cuatrimestre 04 de setiembre
+
+      Oferta de materias y horarios para el Tercer Cuatrimestre</p>
+  </div>
+  <nav class="navbar navbar-expand-md navbar-dark">
+    <div class="container-fluid"> <!-- Agregado "container-fluid" -->
+      <a class="navbar-brand" href="#"><img src="/img/logo.jpg" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+        aria-controls="navbarsExample01" aria-expanded="true" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#cursos">Carreras</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#footer">Contactos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/users.php"><i class="fas fa-user"></i></i></a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner" style="margin-top: 15px;">
+        <div class="carousel-item active">
+          <img src="/img/Matricula.jpg" alt="" class="bd-placeholder-img" width="99%" height="700px"
+            style="border-radius: 20px; margin-left: 10px;">
+
+          <div class="container">
+            <div class="carousel-caption text-start">
+
+
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/img/Carrusel2.jpg" alt="" class="bd-placeholder-img" width="99%" height="700px"
+            style="border-radius: 20px; margin-left: 10px;">
+
+          <div class="container">
+            <div class="carousel-caption">
+
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/img/Carrusel4.jpg" alt="" class="bd-placeholder-img" width="99%" height="700px"
+            style="border-radius: 20px; margin-left: 10px;">
+          <div class="container">
+            <div class="carousel-caption text-end">
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div id="cursos" class="container marketing">
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Administración de Negocios <span class="text-muted">Aquí en la Ucem</span></h2>
+          <p class="lead">El grado de competitividad y exigencia del mundo empresarial actual, obliga a las empresas a
+            implementar diseños organizativos innovadores, eficientes y eficaces.
+            El egresado de la UCEM, por sus características formativas y académicas podrá responder a las exigencias del
+            mundo empresarial, liderando y administrando organizaciones.
+          </p>
+          <button type="button" class="btn btn-primary" onclick="abrirModalA()">Leer Plan</button>
+          <button id="Matricular" class="btn btn-info" style="color: white;">Matricula</button>
+        </div>
+        <div class="container-img col-md-5">
+          <img src="/img/Administracion.jpg" alt=""
+            class="img  bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500">
+
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">Contaduría <span class="text-muted">Aquí en la Ucem</span></h2>
+          <p class="lead">Duración: 8 cuatrimestres El profesional egresado de la UCEM tiene la capacidad técnica y la
+            metodología científica para contribuir a encontrar las soluciones que las empresas requieren, utilizando los
+            sistemas, procedimientos y métodos operativos que garanticen la confiabilidad de los informes que prepare.
+          </p>
+          <button type="button" class="btn btn-primary" onclick="abrirModalC()">Leer Plan</button>
+          <button id="Matri" class="btn btn-info" style="color: white;">Matricula</button>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img src="/img/Contaduria.jpg" alt="" class=" bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+            width="500" height="500">
+
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Ingeniería en Sistemas. <span class="text-muted">Aquí en la Ucem</span></h2>
+          <p class="lead"> La UCEM está comprometida en que el profesional graduado de ingeniería en sistemas sea capaz
+            de navegar en esta mar de variantes, de manera que conozca las características sobre los sistemas operativos
+            más actuales en el mercado y que entienda, desde el punto de vista teórico, las funciones y medidas de
+            eficiencia del software para cumplir su papel de informático a cabalidad.</p>
+          <button type="button" class="btn btn-primary" onclick="abrirModalS()">Leer Plan</button>
+          <button id="Matricu" class="btn btn-info" style="color: white;">Matricula</button>
+        </div>
+        <div class="col-md-5">
+          <img src="/img/Sistemas.jpg" alt="" class=" bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+            width="500" height="500">
+
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">Ingeniería Industrial <span class="text-muted">Aquí en la Ucem</span></h2>
+          <p class="lead">Duración: 8 cuatrimestres Número de créditos: 129 El Ingeniero Industrial, como gestor y
+            analista del cambio en el ambiente empresarial, será la pieza clave en la transformación de los sistemas
+            productivos, para hacerlos eficaces y eficientes con el apoyo y participación de los demás miembros de la
+            organización.
+            Los cambios que experimenta el mundo contemporáneo han obligado a un replanteamiento en la formación de los
+            recursos humanos. Además, las condiciones internacionales de mercado hacen sentir que nuestro país requiere
+            el surgimiento de empresas productivas, más competitivas e innovadoras, que produzcan bienes y servicios de
+            mayor calidad. En ese esquema la UCEM viene hacer su aporte con la carrera Ingeniería Industrial.
+          </p>
+          <button type="button" class="btn btn-primary" onclick="abrirModalI()">Leer Plan</button>
+          <button id="Ma" class="btn btn-info" style="color: white;">Matricula</button>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img src="/img/Industrial.jpg" alt="" class=" bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+            width="500" height="500">
+
+        </div>
+      </div>
+      <!-- /END THE FEATURETTES -->
+    </div><!-- /.container -->
+  </main>
+
+  <!--------------MODAL--------------->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal" aria-hidden="true"
+    data-bs-backdrop="static">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Plan de Estudio</h5>
+        </div>
+        <div class="modal-body">
+          <!--Ciclo 1-->
+          <div class="table-responsive" id="table">
+
+          </div>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal" onclick="cerrarModal()">Cerrar</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!---------------Fin Modal--------------->
+
+  <div id="container-footer" class="container">
+  </div>
+
+  <script src="/footer.js"></script>
+  <script src="/index-modals.js"></script>
+  <script src="/modals-sistemas.js"></script>
+  <!---------Administracion---------->
+  <script>
+    var boton = document.getElementById('Matricular');
+    boton.addEventListener('click', function () {
+      window.location.href = '/php/administracion.php';
+    });
+  </script>
+  <!---------Fin Admnistracion---------->
+
+  <!---------Contabilidad---------->
+  <script>
+    var boton = document.getElementById('Matri');
+    boton.addEventListener('click', function () {
+      window.location.href = '/php/contabilidad.php';
+    });
+  </script>
+  <!---------Fin Contabilidad---------->
+
+  <!---------Sistemas---------->
+  <script>
+    var boton = document.getElementById('Matricu');
+    boton.addEventListener('click', function () {
+      window.location.href = '/php/sistemas.php';
+    });
+  </script>
+  <!---------Fin Sistemas---------->
+
+  <!---------Industrial---------->
+  <script>
+    var boton = document.getElementById('Ma');
+    boton.addEventListener('click', function () {
+      window.location.href = '/php/industrial.php';
+    });
+  </script>
+  <!---------Fin Industrial---------->
+  <!---------------Anuncio--------------->
+  <script>
+    var anuncioVisible = false;
+
+    function cerrarAnuncio() {
+      var anuncio = document.getElementById('anuncio');
+      anuncio.style.display = 'none';
+      anuncioVisible = false;
+    }
+
+    function mostrarAnuncio() {
+      var anuncio = document.getElementById('anuncio');
+      anuncio.style.display = 'block';
+      anuncioVisible = true;
+    }
+
+    // Mostrar el anuncio al cargar la página
+    window.addEventListener('load', mostrarAnuncio);
+
+    // Cerrar el anuncio cuando se hace clic fuera del mismo
+    window.addEventListener('click', function (event) {
+      var anuncio = document.getElementById('anuncio');
+      if (anuncioVisible && !anuncio.contains(event.target)) {
+        cerrarAnuncio();
+      }
+    });
+  </script>
+</body>
+
+</html>
